@@ -33,4 +33,3 @@ class Hepmc3 < Formula
     system "make", "test"
   end
 end
-
