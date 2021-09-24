@@ -115,13 +115,5 @@ class Geant4 < Formula
 
   test do
     system "true"
-    # system "cmake", share/"Geant4-#{version}/examples/basic/B1"
-    # system "make"
-    # (testpath/"test.sh").write <<~EOS
-      # . #{bin}/geant4.sh
-      # ./exampleB1 run2.mac
-    # EOS
-    # assert_match "Number of events processed : 1000",
-                 # shell_output("/bin/bash test.sh")
   end
 end
