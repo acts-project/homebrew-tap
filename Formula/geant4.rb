@@ -9,16 +9,15 @@ class Geant4 < Formula
   license :cannot_represent
 
   # bottle do
-    # # cellar :any
-    # sha256 big_sur:     "170f4a4a3c7c730371e324e7f8e067a855247c1e7ed58f6313be95a55448b7ce"
-    # sha256 catalina:    "ce3f0b6a5d075a00e48d38389348e2cc4c140bc88cccb9d44337b48aeb1cfb9e"
-    # sha256 mojave:      "8bca28cae9c11797ae79e787c3fdfe17cf5b4a1ddb478b7731f36a25ea6f1a7b"
-    # sha256 high_sierra: "09736ea0f71a08b93566a3fb02a16c8bef148e5f79eba71fb8fdd0c5947fa001"
+  # # cellar :any
+  # sha256 big_sur:     "170f4a4a3c7c730371e324e7f8e067a855247c1e7ed58f6313be95a55448b7ce"
+  # sha256 catalina:    "ce3f0b6a5d075a00e48d38389348e2cc4c140bc88cccb9d44337b48aeb1cfb9e"
+  # sha256 mojave:      "8bca28cae9c11797ae79e787c3fdfe17cf5b4a1ddb478b7731f36a25ea6f1a7b"
+  # sha256 high_sierra: "09736ea0f71a08b93566a3fb02a16c8bef148e5f79eba71fb8fdd0c5947fa001"
   # end
 
   depends_on "cmake" => [:build, :test]
   depends_on "clhep"
-  # depends_on "qt"
   depends_on "xerces-c"
 
   uses_from_macos "expat"
