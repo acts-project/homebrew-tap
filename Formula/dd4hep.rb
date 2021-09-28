@@ -4,7 +4,7 @@ class Dd4hep < Formula
   url "https://github.com/AIDASoft/DD4hep/archive/refs/tags/v01-17.tar.gz"
   version "01-17"
   sha256 "036a9908aaf1e13eaf5f2f43b6f5f4a8bdda8183ddc5befa77a4448dbb485826"
-  license "NOASSERTION"
+  license "LGPL-3.0-only"
 
   depends_on "cmake" => :build
   depends_on "geant4"
