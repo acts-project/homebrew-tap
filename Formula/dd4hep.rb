@@ -9,8 +9,8 @@ class Dd4hep < Formula
   depends_on "cmake" => :build
   depends_on "geant4"
   depends_on "python"
-  depends_on "root"
   depends_on "boost"
+  depends_on "root"
   depends_on "xerces-c"
   uses_from_macos "expat"
   uses_from_macos "zlib"
