@@ -8,6 +8,12 @@ class Geant4 < Formula
   # https://geant4.web.cern.ch/license/LICENSE.html
   license :cannot_represent
 
+  bottle do
+    root_url "https://github.com/acts-project/homebrew-tap/releases/download/geant4-10.7.0"
+    sha256 cellar: :any,                 catalina:     "c1250778d9866380c9f04d4e57e321394c06e62462e394fd33107735361e1b08"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "a5698891d7ff524de91cd263fa1688ca38e671443d50642a05f8137e29f3c149"
+  end
+
   # bottle do
   # # cellar :any
   # sha256 big_sur:     "170f4a4a3c7c730371e324e7f8e067a855247c1e7ed58f6313be95a55448b7ce"
