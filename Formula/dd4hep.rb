@@ -7,9 +7,9 @@ class Dd4hep < Formula
   license "LGPL-3.0-only"
 
   depends_on "cmake" => :build
+  depends_on "boost"
   depends_on "geant4"
   depends_on "python"
-  depends_on "boost"
   depends_on "root"
   depends_on "xerces-c"
   uses_from_macos "expat"
