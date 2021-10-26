@@ -1,6 +1,6 @@
 class Dd4hep < Formula
   desc "Detector Description Toolkit for High Energy Physics"
-  homepage "http://dd4hep.cern.ch"
+  homepage "https://dd4hep.web.cern.ch"
   url "https://github.com/AIDASoft/DD4hep/archive/refs/tags/v01-17.tar.gz"
   version "01-17"
   sha256 "036a9908aaf1e13eaf5f2f43b6f5f4a8bdda8183ddc5befa77a4448dbb485826"
@@ -10,6 +10,7 @@ class Dd4hep < Formula
   depends_on "geant4"
   depends_on "python"
   depends_on "root"
+  depends_on "boost"
   depends_on "xerces-c"
   uses_from_macos "expat"
   uses_from_macos "zlib"
